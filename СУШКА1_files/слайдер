@@ -1,0 +1,65 @@
+.slider {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    transition: all 0.5s ease;
+}
+
+.slide {
+    width: 100%;
+    position: relative; /* Додано позицію для вирівнювання кнопок */
+}
+
+.testimonial {
+    display: none;
+    text-align: center;
+    border: 2px solid black; /* Додана обводка */
+    padding: 20px; /* Доданий відступ */
+    color: black; /* Колір тексту відгуку */
+    background-color: white; /* Доданий білий фон */
+}
+
+.testimonial.active {
+    display: block;
+}
+
+.rating {
+    color: gold;
+}
+
+/* Додано стилі для імені та прізвища */
+.testimonial p:first-child {
+    font-weight: bold;
+    font-size: 24px; /* Змінено розмір шрифту */
+    margin-bottom: 10px; /* Доданий відступ */
+}
+
+/* Додано стилі для кнопок перемикання вперед/назад */
+.prev, .next {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5); /* Прозорий білий колір */
+    border: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+
+
+
+
+
+           
